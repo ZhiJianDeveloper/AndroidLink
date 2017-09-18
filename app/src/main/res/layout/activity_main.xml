@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/linkLayout"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="16dp"
+            android:gravity="center_vertical"
+            android:text="wifi账号"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/wifiName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="100dp"
+            android:background="@null"
+            android:hint="输入wifi账号"
+            android:textSize="16sp" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_below="@+id/wifiName"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="10dp"
+            android:background="#fc7d7e83" />
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/view"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:text="密码"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/wifiPwd"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/view"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@null"
+            android:hint="输入密码"
+            android:inputType="text"
+            android:textSize="16sp" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_below="@+id/wifiPwd"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:background="#fc7d7e83" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/linkBtn"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/linkLayout"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="116px"
+        android:text="连接"
+        android:background="#ea1b1b"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/sleeptime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/linkBtn"
+        android:layout_alignRight="@+id/linkBtn"
+        android:layout_below="@+id/linkBtn"
+        android:layout_marginTop="52dp"
+        android:background="@null"
+        android:hint=""
+        android:text="20"
+        android:textColor="#ffffff"
+        android:textSize="14dp" />
+</RelativeLayout>

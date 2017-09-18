@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\EasyLinkDemo\app\libs\easylink2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="639dd107e503051da416656cadc74e36ccc30f5d">
+        <dex dex="D:\AndroidStudioProjects\EasyLinkDemo\app\build\intermediates\pre-dexed\debug\easylink2.0_99e1b4227c7a308787a6ecdd157619d7e08626a3.jar" />
+    </item>
+
+</items>
